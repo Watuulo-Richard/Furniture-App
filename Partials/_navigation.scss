@@ -1,0 +1,325 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    .left-nav {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+        .hamburgMenu {
+            display: none;
+            border: none;
+            cursor: pointer;
+            background: transparent;
+            & i {
+                font-size: 3.2rem;
+            }
+        }
+        .logo {
+            & img {
+
+            }
+        }
+        .dropDownBtn {
+            border: $button-color solid .5px;
+            color: $button-color;
+            background: transparent;
+            padding: 1.6rem;
+            display: flex;
+            align-items: center;
+            gap: 1.6rem;
+            font-size: 1.6rem;
+            border-radius: .5rem;
+            cursor: pointer;
+            & i {
+
+            }
+            & p {
+                
+            }
+            & i {
+                
+            }
+        }
+    }
+    .right-nav {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 1.6rem;
+            & a {
+                text-decoration: none;
+                color: $default-text-color;
+                .pagesBtn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 1rem;
+                    border: none;
+                    background: transparent;
+                    cursor: pointer;
+                    & p {
+                        font-size: 1.6rem;
+                    }
+                    & i {
+                        
+                    }
+                }
+            }
+        }
+        .search-container {
+            border: $button-color solid .5px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .searchBtn {
+                border: none;
+                background: transparent;
+                cursor: pointer;
+                & i {
+                   font-size: 3.2rem;
+                   color: $button-color;    
+                }
+            }
+        }
+        .buttons {
+            display: flex;
+            align-items: center;
+            gap: 1.6rem;
+            #joinBtn {
+
+            }
+            #becomeASellerBtn {
+
+            }
+        }
+    }
+    @media (max-width:1024px){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    .left-nav {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+        .hamburgMenu {
+            display: block;
+            border: none;
+            cursor: pointer;
+            background: transparent;
+            & i {
+                font-size: 3.2rem;
+            }
+        }
+        .logo {
+            & img {
+
+            }
+        }
+        .dropDownBtn {
+            border: $button-color solid .5px;
+            color: $button-color;
+            background: transparent;
+            padding: 1.6rem;
+            display: flex;
+            align-items: center;
+            gap: 1.6rem;
+            font-size: 1.6rem;
+            border-radius: .5rem;
+            cursor: pointer;
+            & i {
+
+            }
+            & p {
+                
+            }
+            & i {
+                
+            }
+        }
+    }
+    .right-nav {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+        .nav-links {
+            // display: flex;
+            display: none;
+            align-items: center;
+            gap: 1.6rem;
+            & a {
+                text-decoration: none;
+                color: $default-text-color;
+                .pagesBtn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 1rem;
+                    border: none;
+                    background: transparent;
+                    cursor: pointer;
+                    & p {
+                        font-size: 1.6rem;
+                    }
+                    & i {
+                        
+                    }
+                }
+            }
+        }
+        .search-container {
+            border: $button-color solid .5px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .searchBtn {
+                border: none;
+                background: transparent;
+                cursor: pointer;
+                & i {
+                   font-size: 3.2rem;
+                   color: $button-color;    
+                }
+            }
+        }
+        .buttons {
+            display: flex;
+            align-items: center;
+            gap: 1.6rem;
+            #joinBtn {
+
+            }
+            #becomeASellerBtn {
+
+            }
+        }
+    }
+    }
+    @media (max-width:768px){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    .left-nav {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+        .hamburgMenu {
+            display: block;
+            border: none;
+            cursor: pointer;
+            background: transparent;
+            & i {
+                font-size: 2rem;
+            }
+        }
+        .logo {
+            width: 15rem;
+            & img {
+                width: 100%;
+                display: block;
+                object-fit: contain;
+            }
+        }
+        .dropDownBtn {
+            display: none;
+            border: $button-color solid .5px;
+            color: $button-color;
+            background: transparent;
+            padding: 1.6rem;
+            // display: flex;
+            align-items: center;
+            gap: 1.6rem;
+            font-size: 1.6rem;
+            border-radius: .5rem;
+            cursor: pointer;
+            & i {
+
+            }
+            & p {
+                
+            }
+            & i {
+                
+            }
+        }
+    }
+    .right-nav {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+        .nav-links {
+            // display: flex;
+            display: none;
+            align-items: center;
+            gap: 1.6rem;
+            & a {
+                text-decoration: none;
+                color: $default-text-color;
+                .pagesBtn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 1rem;
+                    border: none;
+                    background: transparent;
+                    cursor: pointer;
+                    & p {
+                        font-size: 1.6rem;
+                    }
+                    & i {
+                        
+                    }
+                }
+            }
+        }
+        .search-container {
+            border: $button-color solid .5px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .searchBtn {
+                border: none;
+                background: transparent;
+                cursor: pointer;
+                & i {
+                   font-size: 2rem;
+                   color: $button-color;    
+                }
+            }
+        }
+        .buttons {
+            display: none;
+            // display: flex;
+            align-items: center;
+            gap: 1.6rem;
+            #joinBtn {
+
+            }
+            #becomeASellerBtn {
+
+            }
+        }
+    }
+    }
+}

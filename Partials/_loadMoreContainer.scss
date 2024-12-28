@@ -1,0 +1,37 @@
+.button-container {
+    padding: 1.6rem;
+    display: flex;
+    gap: 1.6rem;
+    .one-side {
+        width: 40%;
+    }
+    .the-other-side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        .loadMoreBtn {
+
+        }
+    }
+    @media (max-width: 1024px){
+
+    }
+    @media (max-width: 768px){
+    padding: 1.6rem;
+    flex-direction: column;
+    gap: 1.6rem;
+    .one-side {
+        width: 100%;
+    }
+    .the-other-side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .loadMoreBtn {
+
+        }
+    }
+    }
+}

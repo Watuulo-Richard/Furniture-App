@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./Images/home_14067441.png" type="image/x-icon">
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+        position: relative;
+        }
+
+        .swiper {
+        width: 100%;
+        }
+
+        .swiper-slide {
+        text-align: center;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+
+        .swiper {
+        margin-left: auto;
+        margin-right: auto;
+        }
+    </style>
+    <title>F-commerce</title>
+</head>
+<body>
+    <div class="loading">
+        <span class="loader"></span>
+    </div>
+    <div class="container">
+        <nav class="navigation">
+            <div class="left-nav">
+                <button type="button" id="hamburgMenu" class="hamburgMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <a href="#" class="logo">
+                    <img src="./Images/Logo-new.png" alt="">
+                </a>
+                <button class="dropDownBtn">
+                    <i class="fa-solid fa-chair"></i>
+                    <p>Furniture</p>
+                    <i class="fa-solid fa-caret-down"></i>
+                </button>
+            </div>
+            <div class="right-nav">
+                <div class="nav-links">
+                    <a href="#">Shops</a>
+                    <a href="#">Offers</a>
+                    <a href="#">Contact</a>
+                    <a href="#">
+                        <button type="button" class="pagesBtn" id="pagesBtn">
+                            <p>Pages</p>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="search-container">
+                    <button type="button" class="searchBtn" id="searchBtn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <div class="buttons">
+                    <button type="button" id="joinBtn" class="btn">Join</button>
+                    <button type="button" id="becomeASellerBtn" class="btn">Become a Seller</button>
+                </div>
+            </div>
+        </nav>
+        <div class="main-container">
+            <div class="category-left-side">
+                <div class="category-card-container">
+                    <a href="#">
+                        <div class="category-card">
+                            <div class="category-icon-container">
+                                <i class="fa-solid fa-bed icon-x"></i>
+                            </div>
+                            <div class="category-text">
+                                <p>Bed</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="category-card">
+                        <div class="category-icon-container">
+                            <i class="fa-solid fa-chair icon-x"></i>
+                        </div>
+                        <div class="category-text">
+                            <p>Chair</p>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon-container">
+                            <i class="fa-solid fa-couch icon-x"></i>
+                        </div>
+                        <div class="category-text">
+                            <p>Sofa</p>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon-container">
+                            <i class="fa-solid fa-table icon-x"></i>
+                        </div>
+                        <div class="category-text">
+                            <p>Table</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-products-right-side">
+                <!-- Swiper -->
+                <div class="carousel-container swiper mySwiper">
+                    <div class="carousel-wrap swiper-wrapper">
+                        <div class="carousel-slide-image-container swiper-slide">
+                            <img src="./Images/furniture-banner-1.jpg" alt="">
+                        </div>
+                        <div class="carousel-slide-image-container swiper-slide">
+                            <img src="./Images/furniture-banner-2.jpg" alt="">
+                        </div>
+                        <div class="carousel-slide-image-container swiper-slide">
+                            <img src="./Images/Gadget-banners.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="products-container">
+                    <div class="product-card">
+                        <div class="product-card-image-container">
+                            <img src="./Images/Elm.png" alt="">
+                        </div>
+                        <div class="product-card-text">
+                            <p class="product-name">Ash Double Bed</p>
+                            <p class="product-price">$250.00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image-container">
+                            <img src="./Images/Elm.png" alt="">
+                        </div>
+                        <div class="product-card-text">
+                            <p class="product-name">Ash Double Bed</p>
+                            <p class="product-price">$250.00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image-container">
+                            <img src="./Images/Elm.png" alt="">
+                        </div>
+                        <div class="product-card-text">
+                            <p class="product-name">Ash Double Bed</p>
+                            <p class="product-price">$250.00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image-container">
+                            <img src="./Images/Elm.png" alt="">
+                        </div>
+                        <div class="product-card-text">
+                            <p class="product-name">Ash Double Bed</p>
+                            <p class="product-price">$250.00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image-container">
+                            <img src="./Images/Elm.png" alt="">
+                        </div>
+                        <div class="product-card-text">
+                            <p class="product-name">Ash Double Bed</p>
+                            <p class="product-price">$250.00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image-container">
+                            <img src="./Images/Elm.png" alt="">
+                        </div>
+                        <div class="product-card-text">
+                            <p class="product-name">Ash Double Bed</p>
+                            <p class="product-price">$250.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+            <div class="one-side"></div>
+            <div class="the-other-side">
+                <button id="loadMoreBtn" class="loadMoreBtn btn">
+                    Load More
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+    </script>
+</body>
+</html>

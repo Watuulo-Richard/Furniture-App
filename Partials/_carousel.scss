@@ -1,0 +1,19 @@
+.carousel-container {
+    padding-bottom: 1.6rem;
+    border-radius: .5rem;
+    // overflow: hidden;
+    .carousel-wrap {
+        width: 100%;
+        // overflow: hidden;
+        .carousel-slide-image-container {
+            width: 100%;
+            // overflow: hidden;
+            & img {
+                width: 100%;
+                display: block;
+                object-fit: contain;
+                // overflow: hidden;
+            }
+        }
+    }
+}
