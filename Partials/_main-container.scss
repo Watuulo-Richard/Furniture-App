@@ -8,24 +8,29 @@
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 1.6rem;
-            .category-card {
-                width: 100%;
-                background: white;
-                padding: 3.2rem 1.6rem;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: 1.6rem;
-                border-radius: .5rem;
-                .category-icon-container {
-                    .icon-x {
-                        font-size: 4rem;
+            & a {
+                text-decoration: none;
+                color: $button-color;
+                .category-card {
+                    width: 100%;
+                    background: white;
+                    padding: 3.2rem 1.6rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1.6rem;
+                    border-radius: .5rem;
+                    .category-icon-container {
+                        & i {
+                            font-size: 4rem;
+                            color: $button-color;
+                        }
                     }
-                }
-                .category-text {
-                    & p {
-
+                    .category-text {
+                        & p {
+    
+                        }
                     }
                 }
             }
@@ -98,8 +103,9 @@
                 gap: 1.6rem;
                 border-radius: .5rem;
                 .category-icon-container {
-                    .icon-x {
+                    & i {
                         font-size: 4rem;
+                        color: $button-color;
                     }
                 }
                 .category-text {

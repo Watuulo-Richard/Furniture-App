@@ -365,7 +365,11 @@ body .details-container {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.6rem;
 }
-.main-container .category-left-side .category-card-container .category-card {
+.main-container .category-left-side .category-card-container a {
+  text-decoration: none;
+  color: #009F7F;
+}
+.main-container .category-left-side .category-card-container a .category-card {
   width: 100%;
   background: white;
   padding: 3.2rem 1.6rem;
@@ -376,8 +380,9 @@ body .details-container {
   gap: 1.6rem;
   border-radius: 0.5rem;
 }
-.main-container .category-left-side .category-card-container .category-card .category-icon-container .icon-x {
+.main-container .category-left-side .category-card-container a .category-card .category-icon-container i {
   font-size: 4rem;
+  color: #009F7F;
 }
 .main-container .carousel-products-right-side {
   width: 60%;
@@ -446,8 +451,9 @@ body .details-container {
     gap: 1.6rem;
     border-radius: 0.5rem;
   }
-  .main-container .category-left-side .category-card-container .category-card .category-icon-container .icon-x {
+  .main-container .category-left-side .category-card-container .category-card .category-icon-container i {
     font-size: 4rem;
+    color: #009F7F;
   }
   .main-container .carousel-products-right-side {
     width: 100%;
